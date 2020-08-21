@@ -1,0 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+.dark-mode body {
+    @apply transition;
+    @apply duration-500; 
+    @apply bg-palette-dark;
+}
+
+.light-mode body {
+    @apply transition;
+    @apply duration-500;
+    @apply bg-palette-light;
+}
